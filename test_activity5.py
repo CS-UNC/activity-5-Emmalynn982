@@ -1,7 +1,7 @@
 import pytest
 from activity5 import *
 
-def test_more_than_20(monkeypatch):
+def test_more_than_20(monkeypatch): 
     result = more_than_20('CROSSWD.txt')
     test = ['counterdemonstrations', 'hyperaggressivenesses', 'microminiaturizations']
     assert result == test, f'Incorrect result for more_than_20 with the CROSSWD.txt file. Expected result: {test}, Actual: {result}'

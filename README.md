@@ -74,4 +74,3 @@ Write a function called `all_uses_only(file, letters)` that takes in two strings
 #### Hint: Your `uses_only` function will be important here
 
 
-
